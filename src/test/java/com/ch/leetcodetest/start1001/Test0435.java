@@ -34,10 +34,6 @@ import java.util.Comparator;
  * 输出: 0
  *
  * 解释: 你不需要移除任何区间，因为它们已经是无重叠的了。
- *
- * 来源：力扣（LeetCode）
- * 链接：https://leetcode-cn.com/problems/non-overlapping-intervals
- * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class Test0435 {
 
