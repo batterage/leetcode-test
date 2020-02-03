@@ -1,5 +1,6 @@
 package com.ch.leetcodetest.start0001;
 
+import lombok.Data;
 import org.junit.Test;
 
 /**
@@ -24,7 +25,7 @@ public class Test0112 {
         return hasPathSum(root.left,sum)||hasPathSum(root.right,sum);
     }
 }
-
+@Data
 class TreeNode {
     int val;
     TreeNode left;
@@ -34,3 +35,9 @@ class TreeNode {
         val = x;
     }
 }
+/*
+TreeNode root = new TreeNode(2);
+        root.left = new TreeNode(3);
+        root.right=new TreeNode(4);
+        root.left.left=new TreeNode(5);
+ */
